@@ -316,6 +316,27 @@ margin-left: 10px;
 .team-social-icon {
     fill:#000000
 }
+
+.team-social-link:hover, 
+.team-social-link:focus {
+    background-color: var(--accent-color);
+}
+
+/*--------------------------------------CLIENTS-------------------------------*/
+.clients-list {
+    display: flex;
+    justify-content: center;
+}
+
+.clients-item {
+    height: 92px;
+    width: 170 px;
+    background-color: var(--header-text-color);
+}
+.clients-item + .clients-item {
+    margin-left: 30px;
+}
+
 /*------------------------------------------ FOOTER -------------------------*/
 
 .footer {
