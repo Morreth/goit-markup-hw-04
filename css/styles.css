@@ -205,11 +205,13 @@ justify-content: space-between
 .hero-item {
 max-width: 270px;
 }
+
 .title-three {
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
+margin-top: 30px;
 margin-bottom: 10px;
 text-transform: uppercase;
 color: var(--second-title-color);
@@ -220,6 +222,10 @@ font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
+}
+
+.hero-icon {
+    background-color:(var(--portfolio-button-color));
 }
 
 .title-two {
