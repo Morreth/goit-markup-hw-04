@@ -332,6 +332,8 @@ margin-left: 10px;
     width: 170 px;
     height: 92px;
     background-color: var(--header-text-color);
+    border: 1px solid #AFB1B8;
+border-radius: 4px;
 }
 
 .clients-item + .clients-item {
