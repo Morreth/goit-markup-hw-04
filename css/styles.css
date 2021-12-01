@@ -63,9 +63,6 @@ body  {
     align-items: baseline;
 }
 
-.header-container {
-    align-items: baseline;
-}
 
 .header-navigation {
     display: flex;
@@ -112,48 +109,47 @@ color: #212121;
 color: var(--accent-color);
 }
 
-.contacts {
+.header-item:not(:last-child) {
+    margin-right: 50px;
+    } 
+
+.header-contacts {
     display: flex;
-    margin-left: auto;
-    margin-bottom: 0;
-    align-items: baseline;
+    align-items: center;
+    margin-left: 235px;
+    margin-right: auto;
 }
 
-.header-address {
-    display: flex;
-    margin-left: auto;
-    margin-bottom: 0;
-    align-items: baseline;
-}
 .header-tel {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    margin-left: 50px;
-    margin-right: auto;
-    
     color: var(--header-text-color);
 }
+
 .header-tel:hover,
 .header-tel:focus {
 color: var(--accent-color);
 }
 
+.header-tel-icon {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.header-tel-icon:hover,
+.header-address-icon:focus {
+    fill: currentColor;
+} 
 
 .header-address {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.33;
 letter-spacing: 0.02em;
-align-items: baseline;
-margin-left: 50px;
 color:var(--header-text-color);
-}
-
-.header-address-icon {
-margin-right: 10px;
-margin-bottom: 0;
+margin-left: 10px;
 }
 
 .header-address-icon:hover,
@@ -166,9 +162,7 @@ margin-bottom: 0;
     color: var(--accent-color) 
 }
 
-.header-item:not(:last-child) {
-margin-right: 50px;
-} 
+
 
 /*------------------------------------------------main------------------------*/
 
@@ -461,7 +455,6 @@ margin-left: 70px;}
 
 .footer-social-list {
     display: flex;
-    
 }
 
 
@@ -513,12 +506,16 @@ margin-left: 8px;
   background-color:var(--accent-color) 
 }
 
+.works-button:hover, 
+.works-button:focus {
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;}
+
 .works-button-list {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
  }
-
 
 .works-list {
     display: flex;
