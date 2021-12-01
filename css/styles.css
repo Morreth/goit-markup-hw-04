@@ -270,7 +270,7 @@ color: var(--second-title-color);
 background-color: var(--portfolio-button-color);
  }
 
- .team-container {
+.team-container {
 text-align: center;
 }
 
@@ -529,7 +529,7 @@ border-radius: 4px;}
 }
 
 .works-link:visited {
-    color: var(--header-text-color)   
+    color: var(--second-title-color)   
 }
 
 .works-card {
