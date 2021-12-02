@@ -115,6 +115,7 @@ body  {
     letter-spacing: 0.02em;
     color: var(--header-text-color);
   }
+
   .header-link:hover,
   .header-link:focus {
     color: var(--accent-color);
@@ -299,6 +300,7 @@ border-radius: 0px 0px 4px 4px;
 .team-card {
 padding-top: 30px;
 padding-bottom: 30px;
+background-color: #fff;
 }
 
 img {
