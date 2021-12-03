@@ -113,7 +113,7 @@ body  {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--header-text-color);
+    color: var(--second-title-color);
   }
 
   .header-link:hover,
@@ -389,11 +389,16 @@ border-radius: 4px;
     margin-right: auto;
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
     border-color: var(--accent-color);
   }
 
   .clients-link:hover .clients-icon {
+    fill: var(--accent-color);
+  }
+
+  .clients-link:focus .clients-icon {
     fill: var(--accent-color);
   }
 /*------------------------------------------ FOOTER -------------------------*/
@@ -422,6 +427,9 @@ padding-bottom: 60px;
     padding-top: 20px;
 }
 
+.footer-contact {
+  margin-bottom: 9px;
+}
 .footer-address {
 font-style: normal;
 font-weight: 400;
@@ -443,25 +451,11 @@ color: var(--accent-color)
     line-height: 1.71;
    letter-spacing: 0.03em;
    color: var(--second-text-color); 
-   margin-bottom: 9px;
+   
 }
 .footer-mail:hover, 
 .footer-mail:focus {
     color: var(--accent-color) 
-}
-
-.footer-tel {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-   letter-spacing: 0.03em;
-   color: var(--second-text-color);
-   margin-bottom: 9px;
-}
-.footer-tel:hover, 
-.footer-tel:focus {
-    color: var(--accent-color); 
 }
 
 .title-five {
@@ -482,7 +476,6 @@ margin-left: 70px;}
 .footer-social-list {
     display: flex;
 }
-
 
 .footer-social-link {
     width: 44px;
